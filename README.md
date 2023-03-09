@@ -45,6 +45,8 @@ node fichier.js \
     --tls-key-path /app/key.pem \
     --port 3000
 ```
+Ce script permet d'installer les dépendances de l'application, puis démarre l'application JavaScript en utilisant un certificat SSL pour une communication sécurisée et en écoutant sur le port 3000.
+
 2. Vous aller devoir ajouter la configuration SSL à votre fichier principal de votre API:
 
 #### Avec Express vanilla : 
