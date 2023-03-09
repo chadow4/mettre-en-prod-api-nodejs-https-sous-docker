@@ -15,10 +15,10 @@
 ## Prérequis
 
 Afin de mettre en place la mise en production de notre API, nous allons avoir besoin de certaines choses :
-- docker 
-- portainer
-- une API nodejs de votre choix (Vanilla express, NestJS...).
-- une certificat SSL (ici, nous allons utiliser certbot)
+- Docker 
+- Portainer
+- une API NodeJS de votre choix (Vanilla express, NestJS...).
+- une certificat SSL (ici, nous allons utiliser certbot pour le générer)
 - un path déjà défini, là ou nous allons stocker les fichiers de notre API , pour nous : ```/home/docker/api/tutorialAPI```
 
 ## Mise en place
@@ -131,6 +131,7 @@ Un répertoire local "/home/docker/api/tutorialAPI" est monté sur le répertoir
 
 Enfin, la commande "sh /app/start.sh" est exécutée lorsque le conteneur est lancé. Cette commande va lancer notre script défini plus haut et va installer les dépendances nécessaires pour l'application et exécuter l'api avec des options de certificat SSL et de port.
 
+Vous pouvez dès à présent lancer votre container Docker et vérifier si votre api fonctionne bien en allant pour notre cas sur https://example.com:32000
 
 Voilà :)
 
