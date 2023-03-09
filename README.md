@@ -105,7 +105,7 @@ Vous allez suivre ces différentes étapes :
 3. Cliquez sur le bouton "Add stack" en haut à droite de l'écran.
 4. Donnez un nom à votre stack.
 5. Collez le contenu de votre fichier YAML ci-dessous dans le champ "Web editor".
-Cliquez sur "Create the stack".
+6. Cliquez sur "Create the stack".
 
 Cela va créer une stack Docker avec les services et les configurations définis dans votre fichier YAML. Vous pouvez également surveiller les logs de votre stack et les paramètres de configuration dans l'interface de Portainer.
 
