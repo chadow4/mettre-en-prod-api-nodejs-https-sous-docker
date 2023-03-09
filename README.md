@@ -40,7 +40,7 @@ A la fin du processus, si tout c'est bien passé, vous retrouverez votre certifi
 
 ```batch
 npm install
-node ./dist/server.js \
+node fichier.js \
     --tls-cert-path /app/cert.pem \
     --tls-key-path /app/key.pem \
     --port 3000
